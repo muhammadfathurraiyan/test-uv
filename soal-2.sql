@@ -22,8 +22,8 @@ SELECT
   child.name, 
   parent.name AS parent_name
 FROM 
-  table_name AS child
+  table1 AS child
 LEFT JOIN 
-  table_name AS parent 
+  table2 AS parent 
 ON 
   child.parent_id = parent.id;
